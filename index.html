@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="pagetype" content="home">
+  <link rel="stylesheet" href="./common/scss/style.css">
+  <title>私の出来事 BLOG</title>
+</head>
+
+<body>
+  <!--------------------------------------------->
+  <!-- Header -->
+  <!--------------------------------------------->
+  <header>
+    <div class="home_header">
+      <div class="home_header_title">
+        <strong>私の出来事</strong>
+        <p>BLOG</p>
+      </div>
+      <div class="home_header_view">
+        <img src="./common/img/IMG_3977 1 (960-300).jpg" alt="">
+      </div>
+      
+<!-- 
+      <video autoplay loop muted preload>
+        <source src="./common/img/pixabay 173137-848555631_medium.mp4" type="video/mp4">
+      </video>
+-->
+
+      <div class="container">
+      </div>
+    </div>
+  </header>
+
+  <!--------------------------------------------->
+  <!-- Main -->
+  <!--------------------------------------------->
+  <main>
+    <div class="container">
+      <!----------------------------------------->
+      <!-- Home -->
+      <!----------------------------------------->
+      <div class="home_main">
+        <div class="home_main_view">
+          <img src="./common/img/My CAMRY (960-720).jpg" alt="">
+        </div>
+
+        <div class="home_main_text">
+          <h2>プロフィール</h2>
+          <p>
+            現在の私の仕事は、液晶・半導体の検査装置のパソコン制御において、客先との仕様打合わせから制御プログラムの作成、現地調整までを一貫して行っています。
+            プログラムは、C、C++ C#言語を使用して、各装置制御、客先工場において自動運転を行う為のホスト通信制御や
+            搬送ロボット制御などあらゆるプログラムを作成し納品しております。<br>
+            HTML, CSS, JavaScriptも習得しましたので、自分のブログを作ってみました。<br>
+            今後は、自分なりにWebの仕事の方へも広げようと思っております。
+          </p>
+          <p>
+            ちなみに、上の画像は、私の愛車のカムリです。
+          </p>
+        </div>
+      </div>
+
+      <!----------------------------------------->
+      <!-- pagination -->
+      <!----------------------------------------->
+      <div class="pagination">
+        <div class="container">
+          <div class="pagination_unit">
+            <div class="pagination_unit_gp1">
+              <button type="button" class="pagination_unit_gp1_button" data-index="0"><a class="pagination_unit_gp1_button_link_home_main" href="./index.html">ホーム</a></button>
+              <button type="button" class="pagination_unit_gp1_button" data-index="1"><a class="pagination_unit_gp1_button_link_top" href="./page/1/blog.html">先頭</a></button>
+              <button type="button" class="pagination_unit_gp1_button" data-index="2"><a class="pagination_unit_gp1_button_link_end" href="./page/8/blog.html">末尾</a></button>
+            </div>
+            
+            <div class="pagination_unit_gp2">
+              <button type="button" class="pagination_unit_gp2_button prev" data-index="3"><a class="pagination_unit_gp2_button_link_prev" href="#">前</a></button>
+
+              <ul class="pagination_unit_gp2_page">
+                <li class="pagination_unit_gp2_page_item">
+                  <a class="pagination_unit_gp2_page_item_link" href="#" data-index="-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="pagination_unit_gp2_page_item_link_icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M11 19l-7-7 7-7m8 14l-7-7 7-7"/>
+                    </svg>
+                  </a>
+                </li>
+                <li class="pagination_unit_gp2_page_item">
+                  <a class="pagination_unit_gp2_page_item_link" href="./page/1/blog.html" data-index="1"><span>1</span></a>
+                </li>
+                <li class="pagination_unit_gp2_page_item">
+                  <a class="pagination_unit_gp2_page_item_link" href="./page/2/blog.html" data-index="2"><span>2</span></a>
+                </li>
+                <li class="pagination_unit_gp2_page_item">
+                  <a class="pagination_unit_gp2_page_item_link" href="./page/3/blog.html" data-index="3"><span>3</span></a>
+                </li>
+                <li class="pagination_unit_gp2_page_item">
+                  <a class="pagination_unit_gp2_page_item_link" href="./page/4/blog.html" data-index="4"><span>4</span></a>
+                </li>
+                <li class="pagination_unit_gp2_page_item">
+                  <a class="pagination_unit_gp2_page_item_link" href="./page/5/blog.html" data-index="5"><span>5</span></a>
+                </li>
+                <li class="pagination_unit_gp2_page_item arrow_right">
+                  <a class="pagination_unit_gp2_page_item_link" href="#" data-index="-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="pagination_unit_gp2_page_item_link_icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+
+              <button type="button" class="pagination_unit_gp2_button next" data-index="4"><a class="pagination_unit_gp2_button_link_next" href="./page/1/blog.html">次</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!--------------------------------------------->
+  <!-- Footer -->
+  <!--------------------------------------------->
+  <footer>
+    <div class="container">
+    </div>
+  </footer>
+
+  <script src="./common/js/script.js"></script>
+</body>
+</html>

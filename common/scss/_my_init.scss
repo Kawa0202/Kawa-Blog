@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&subset=japanese');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Noto Sans JP', sans-serif;
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+  color: #444444;
+}
+
+nav ul {
+  list-style:none;
+}
+
